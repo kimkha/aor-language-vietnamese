@@ -1,8 +1,8 @@
-# Vietnamese Translations for Admin-on-rest
+# Vietnamese Translations for React-Admin
 
-Vietnamese translations for [admin-on-rest](https://github.com/marmelab/admin-on-rest), the frontend framework for building admin applications on top of REST services.
+Vietnamese translations for [react-admin](https://github.com/marmelab/admin-on-rest), the frontend framework for building admin applications on top of REST services.
 
-[![admin-on-rest-demo](https://marmelab.com/admin-on-rest/img/admin-on-rest-demo-still.png)](https://vimeo.com/205118063)
+[![react-admin-demo](https://marmelab.com/admin-on-rest/img/admin-on-rest-demo-still.png)](https://vimeo.com/205118063)
 
 ## Installation
 
