@@ -37,6 +37,7 @@ module.exports = {
             about: 'Về',
         },
         navigation: {
+            no_results: 'Không có kết quả nào',
             page_out_of_boundaries: 'Trang số %{page} đã vượt giới hạn',
             page_out_from_end: 'Không thể đi tiếp sau trang cuối',
             page_out_from_begin: 'Không thể trở lại trước trang 1',
