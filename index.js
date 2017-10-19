@@ -57,6 +57,7 @@ module.exports = {
             created: 'Thành phần đã được tạo',
             deleted: 'Thành phần đã bị xoá',
             item_doesnt_exist: 'Thành phần không tồn tại',
+            http_error : 'Lỗi giao tiếp với máy chủ'
         },
         validation: {
             required: 'Bắt buộc',
