@@ -11,6 +11,7 @@ module.exports = {
             refresh: 'Làm mới',
             add_filter: 'Thêm bộ lọc',
             remove_filter: 'Bỏ bộ lọc',
+            back: 'Trở về',
         },
         boolean: {
             true: 'Đúng',
@@ -23,11 +24,26 @@ module.exports = {
             create: 'Tạo %{name}',
             delete: 'Xoá %{name} #%{id}',
             dashboard: 'Bảng điều khiển',
+            not_found: 'Không tìm thấy'
         },
         input: {
+            autocomplete: {
+               none: 'Không'
+            },
+            file: {
+               upload_several: 'Click để chọn một tệp tin hoặc kéo thả nhiều tệp tin để tải lên.',
+               upload_single: 'Click để chọn một tệp tin hoặc kéo thả để tải lên.',
+            },
             image: {
-                upload_several: 'Kéo thả nhiều tập tin để tải lên, hoặc click để chọn một cái.',
-                upload_single: 'Kéo thả tập tin để tải lên, hoặc click để chọn nó.',
+                upload_several: 'Click để chọn một bức ảnh hoặc kéo thả nhiều bức ảnh để tải lên.',
+                upload_single: 'Click để chọn một bức ảnh hoặc kéo thả để tải lên.',
+            },
+            references: {
+                all_missing: 'Không thể tìm thấy dữ liệu tham khảo.',
+                many_missing:
+                    'Ít nhất một tài liệu tham khảo liên quan không còn xuất hiện nữa',
+                single_missing:
+                    'Tài liệu tham khảo liên quan không còn tồn tại nữa',
             },
         },
         message: {
@@ -35,6 +51,7 @@ module.exports = {
             no: 'Không',
             are_you_sure: 'Bạn có chắc không ?',
             about: 'Về',
+            not_found: 'Bạn đã nhập một URL sai hoặc bạn đã làm theo một liên kết không đúng.',
         },
         navigation: {
             no_results: 'Không có kết quả nào',
@@ -57,10 +74,17 @@ module.exports = {
             created: 'Thành phần đã được tạo',
             deleted: 'Thành phần đã bị xoá',
             item_doesnt_exist: 'Thành phần không tồn tại',
-            http_error : 'Lỗi giao tiếp với máy chủ'
+            http_error : 'Lỗi giao tiếp với máy chủ',
+            bad_item: 'Element không đúng.',
         },
         validation: {
             required: 'Bắt buộc',
+            minLength: 'Ít nhất phải %{min} ký tự.',
+            maxLength: 'Phải nhỏ hơn hoặc bằng %{max}.',
+            minValue: 'Phải lớn hơn hoặc bằng %{min}',
+            maxValue: 'Phải nhỏ hơn hoặc bằng %{max}',
+            number: 'Phải là số',
+            email: 'Email phải hợp lệ.',
         },
     },
 };
